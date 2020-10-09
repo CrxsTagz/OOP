@@ -7,8 +7,8 @@ int main ()
 {
 	Zebra zeb;
 	Dolphin dol;
-	char n1[10]="Ana";
-	char n2[10]="Jin";
+	char n1[10]="Yurisleidy";
+	char n2[10]="Miguelito";
 
 	zeb.set_data (5,n1);
 	dol.set_data (2,n2);
