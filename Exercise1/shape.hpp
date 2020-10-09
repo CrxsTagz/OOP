@@ -17,7 +17,7 @@ public:
 class Rectangle: public Shape
 {
 public:
-	float area ()
+	float area()
 	{
 		return (width * height);
 	}
@@ -26,7 +26,7 @@ public:
 class Triangle: public Shape
 {
 public:
-	float area ()
+	float area()
 	{
 		return (width * height / 2);
 	}
