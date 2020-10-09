@@ -5,9 +5,9 @@ using namespace std;
 class Animal
 {
 	protected:
-	 int age;char name[10];
+	 int age;char name[20];
 	public:
-	 void set_data (int a, char n[10])
+	 void set_data (int a, char n[20])
 	 {
 		age = a;
 		strcpy(n,name);
