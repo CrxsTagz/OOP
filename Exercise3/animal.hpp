@@ -4,13 +4,15 @@ using namespace std;
 
 class Animal
 {
+	//protected means that the code can access anywhere
 	protected:
-	 int age;char name[20];
+	 int age; char name[20];
 	public:
-	 void set_data (int a, char n[20])
+	 void andata (int a, char n[20])
 	 {
 		age = a;
-		strcpy(n,name);
+	//strcpy copia un string2 en un string1
+		 strcpy(n,name);
 	 }
 
 };
